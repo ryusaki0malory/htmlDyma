@@ -34,6 +34,12 @@ p {
   margin-bottom: 10px;
 }
 
+.container {
+  display: block;
+  margin: auto;
+  max-width: 1000px;
+}
+
 /* header */
 .Header-1 {
   background: #333;
@@ -118,9 +124,9 @@ p {
 }
 
 .btn-regular:hover {
-    background: black;
-    color: white;
-
+  background: black;
+  color: white;
+}
 /* separator */
 
 .separator {
@@ -128,4 +134,24 @@ p {
   height: 10px;
   width: 100px;
   background: black;
+}
+
+/* features */
+
+.features {
+  overflow: auto;
+  padding: 100px 8px 100px 8px;
+}
+
+.feature {
+  float: left;
+  width: 50%;
+}
+
+.feature h2 {
+  font-size: 25px;
+}
+
+.feature p {
+  font-size: 14px;
 }
