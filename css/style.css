@@ -12,6 +12,7 @@ html,
 body {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
+  color: #222;
 }
 
 h1,
@@ -141,6 +142,7 @@ p {
 .features {
   overflow: auto;
   padding: 100px 8px 100px 8px;
+  text-align: center;
 }
 
 .feature {
