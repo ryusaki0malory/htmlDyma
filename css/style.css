@@ -35,6 +35,11 @@ p {
   margin-bottom: 10px;
 }
 
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .container {
   display: block;
   margin: auto;
@@ -117,11 +122,24 @@ p {
   border-radius: 30px;
   font-weight: 700;
   font-size: 14px;
+  border: 0px;
+  cursor: pointer;
 }
 
 .btn-regular {
   background: white;
   color: #222;
+}
+
+.btn-dark {
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover {
+  background: white;
+  color: #222;
+  border: solid black 1px;
 }
 
 .btn-regular:hover {
@@ -132,7 +150,7 @@ p {
 
 .separator {
   margin: 20px auto;
-  height: 10px;
+  height: 5px;
   width: 100px;
   background: black;
 }
@@ -151,9 +169,41 @@ p {
 }
 
 .feature h2 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .feature p {
   font-size: 14px;
+  padding: 0px 10px;
+}
+
+/* person */
+
+.person {
+  height: 400px;
+  background: url(../images/ninja-complet-portant-equipement_23-2150960878.jpg)
+    center center;
+}
+
+.reservation {
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+}
+
+footer {
+  overflow: auto;
+  background: #222;
+  color: white;
+  margin: 30px 0px 30px 0px;
+  text-align: left;
+  padding: 0px;
+  margin: 0;
+}
+
+footer i {
+  float: right;
+}
+footer i {
+  float: left;
+  margin-right: 5px;
 }
