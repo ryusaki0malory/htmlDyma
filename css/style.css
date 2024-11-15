@@ -40,6 +40,29 @@ p {
   margin-bottom: 20px;
 }
 
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.chip {
+  width: 30px;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.chip-brown {
+  background-color: brown;
+  color: white;
+}
+
+.chip-purple {
+  background-color: purple;
+  color: white;
+}
+
 .container {
   display: block;
   margin: auto;
@@ -183,6 +206,8 @@ p {
   height: 400px;
   background: url(../images/ninja-complet-portant-equipement_23-2150960878.jpg)
     center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .reservation {
@@ -194,7 +219,8 @@ footer {
   overflow: auto;
   background: #222;
   color: white;
-  margin: 30px 0px 30px 0px;
+  margin: 50px 0px 50px 0px;
+  min-height: 50px;
   text-align: left;
   padding: 0px;
   margin: 0;

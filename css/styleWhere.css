@@ -1,0 +1,17 @@
+.where {
+  padding: 180px 0px 180px 0px;
+  overflow: auto;
+  min-height: 86vh;
+}
+
+.where-img {
+  float: left;
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.where-text {
+  float: right;
+  width: 50%;
+}

@@ -3,7 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/styleContact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/057767f29d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>WorkShop ! Contact</title>
   </head>
-  <body></body>
+  <body>
+    <header class="Header-1">
+      <nav>
+        <h1>
+          <a href="/index.html">SAMOURAI WORKSHOP</a>
+        </h1>
+        <ul>
+          <li><a href="/index.html">Acceuil</a></li>
+          <li><a href="/where.html">Nous trouver</a></li>
+          <li><a href="/contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="contact">
+      <div class="contact-form-container">
+        <form action="#">
+          <hi class="underline">Une qustion? venez</hi>
+          <label class="my-20" for="name">Nom</label>
+          <input class="my-20" type="text" name="name" id="name-id" />
+          <label class="my-20" for="email">Email</label>
+          <input class="my-20" type="email" name="email" id="email-id" />
+          <label class="my-20" for="question">Question</label>
+          <textarea name="question" id="question-id"></textarea>
+          <button class="btn btn-dark my-20">SOUMETTRE</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <i class="fa-regular fa-copyright"></i>
+      <p>Copyright</p>
+    </footer>
+  </body>
 </html>
